@@ -75,6 +75,7 @@ public class MainActivity extends Activity {
         System.out.println("GPS: "+db.getGPS(db.getUsuarioName(1), db.getSesionPerDate(db.getUsuarioName(1), "2013-05-31").get(0), 1).toString());
 	
         System.out.println("inicio Github");
+        System.out.println("Otra linea para verificar cambios en github");
 	}
 
 }
