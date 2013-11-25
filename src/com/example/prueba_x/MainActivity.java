@@ -73,6 +73,8 @@ public class MainActivity extends Activity {
       			+ "\ntiempo_total:"+db.getSesionPerUser(db.getUsuarioName(1),6)+"");
         System.out.println("Sesion por Fecha (id): "+db.getSesionPerDate(db.getUsuarioName(1), "2013-05-31").toString());
         System.out.println("GPS: "+db.getGPS(db.getUsuarioName(1), db.getSesionPerDate(db.getUsuarioName(1), "2013-05-31").get(0), 1).toString());
+	
+        System.out.println("inicio Github");
 	}
 
 }
